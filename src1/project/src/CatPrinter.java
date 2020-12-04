@@ -12,9 +12,11 @@ public class CatPrinter {
     }
 
     public static void printCat(int count) {
+        System.out.println("Cats are ");
         for (int i = 0; i < count; i++) {
-            System.out.println("Cat");
+            System.out.println("cats are ");
         }
+        System.out.println("cats.");
     }
 //hejhejhej
     public static void printCat(int count, String word) {
