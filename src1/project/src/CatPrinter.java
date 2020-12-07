@@ -3,7 +3,7 @@ public class CatPrinter {
         if (args.length == 1) {
             printCat(Integer.parseInt(args[0]));
         } else if (args.length == 2) {
-            printCat(Integer.parseInt(args[0]), args[1]);
+            printCat(Integer.parseInt(args[0]));
         } else {
             System.out.println("Invalid arguments, exiting....");
             System.exit(0);
@@ -20,6 +20,11 @@ public class CatPrinter {
         System.out.println("cats.");
     }
 
+    public static void printDoggies(int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.println("Doggies");
+        }
+    }
 
     public static void printTurtle(int count) {
         for (int i = 0; i < count; i++) {
@@ -27,10 +32,9 @@ public class CatPrinter {
         }
     }
 
-
-    public static void printCat(int count, String word) {
+    public static void printTiger(int count) {
         for (int i = 0; i < count; i++) {
-            System.out.println("The cat says " + word + "!");
+            System.out.println("Tiger");
         }
     }
 
@@ -41,6 +45,5 @@ public class CatPrinter {
     //Rosor är röda
     //Julen är vit
     //Mer rim
-    //Jättebra rim
 
 }
