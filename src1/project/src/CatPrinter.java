@@ -8,6 +8,7 @@ public class CatPrinter {
             System.out.println("Invalid arguments, exiting....");
             System.exit(0);
         }
+        printDog();
 
     }
 
@@ -23,5 +24,9 @@ public class CatPrinter {
         for (int i = 0; i < count; i++) {
             System.out.println("The cat says " + word + "!");
         }
+    }
+
+    public static void printDog(){
+        System.out.println("Dog!");
     }
 }
