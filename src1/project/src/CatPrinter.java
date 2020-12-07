@@ -37,4 +37,6 @@ public class CatPrinter {
     public static void printDog(){
         System.out.println("Dog!");
     }
+
+    //Rosor är röda
 }
