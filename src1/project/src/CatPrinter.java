@@ -29,6 +29,12 @@ public class CatPrinter {
         }
     }
 
+                public static void printTiger(int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.println("Tiger");
+        }
+    }
+
     public static void printCat(int count, String word) {
         for (int i = 0; i < count; i++) {
             System.out.println("The cat says " + word + "!");
