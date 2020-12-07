@@ -8,36 +8,41 @@ public class CatPrinter {
             System.out.println("Invalid arguments, exiting....");
             System.exit(0);
         }
+        printDog();
 
     }
 
     public static void printCat(int count) {
+        System.out.println("Cats are ");
         for (int i = 0; i < count; i++) {
-            System.out.println("Cat");
+            System.out.println("cats are ");
         }
+        System.out.println("cats.");
     }
 
-        public static void printDoggies(int count) {
+    public static void printDoggies(int count) {
         for (int i = 0; i < count; i++) {
             System.out.println("Doggies");
         }
     }
 
-            public static void printTurtle(int count) {
+    public static void printTurtle(int count) {
         for (int i = 0; i < count; i++) {
             System.out.println("Turtle");
         }
     }
 
-                public static void printTiger(int count) {
+    public static void printTiger(int count) {
         for (int i = 0; i < count; i++) {
             System.out.println("Tiger");
         }
     }
 
-    public static void printCat(int count, String word) {
-        for (int i = 0; i < count; i++) {
-            System.out.println("The cat says " + word + "!");
-        }
+    public static void printDog() {
+        System.out.println("Dog!");
     }
+
+    //Rosor är röda
+    //Julen är vit
+    //Mer rim
 }
