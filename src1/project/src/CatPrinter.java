@@ -20,6 +20,12 @@ public class CatPrinter {
         System.out.println("cats.");
     }
 
+            public static void printTurtle(int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.println("Turtle");
+        }
+    }
+
     public static void printCat(int count, String word) {
         for (int i = 0; i < count; i++) {
             System.out.println("The cat says " + word + "!");
