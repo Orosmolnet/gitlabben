@@ -13,6 +13,7 @@ public class MyNode {
   private int value;
 
 //HALLÅ
+
   /**
    * Class constructor initializing this node's value.
    *
