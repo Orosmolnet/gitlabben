@@ -16,7 +16,7 @@ public class CatPrinter {
             System.out.println("Cat");
         }
     }
-
+//hejhejhej
     public static void printCat(int count, String word) {
         for (int i = 0; i < count; i++) {
             System.out.println("The cat says " + word + "!");
