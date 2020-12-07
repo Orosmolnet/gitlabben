@@ -12,7 +12,7 @@ public class MyNode {
   private MyNode right;
   private int value;
 
-
+//HALLÅ
   /**
    * Class constructor initializing this node's value.
    *
