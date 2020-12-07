@@ -21,7 +21,7 @@ public class CatPrinter {
     }
 
 
-            public static void printTurtle(int count) {
+    public static void printTurtle(int count) {
         for (int i = 0; i < count; i++) {
             System.out.println("Turtle");
         }
@@ -34,7 +34,7 @@ public class CatPrinter {
         }
     }
 
-    public static void printDog(){
+    public static void printDog() {
         System.out.println("Dog!");
     }
 
